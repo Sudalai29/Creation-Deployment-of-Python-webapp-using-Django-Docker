@@ -1,6 +1,6 @@
 name: "Enhanced Python Analysis"
 description: "Custom configuration for thorough Python analysis"
 queries:
-  - uses: codeql/python-queries  # Default Python queries
+  #- uses: codeql/python-queries  # Default Python queries
   - uses: security-extended      # Additional security queries
   - uses: security-and-quality   # Includes both security and quality-focused queries
